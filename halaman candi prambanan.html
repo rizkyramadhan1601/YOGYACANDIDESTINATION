@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CANDI PRAMBANAN</title>
+<link rel="icon" href="picture\logo yogya.png">
+</head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  border-radius: 20px 20px 0px 0px;
+  background-color: #362e54;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  border-radius: 0px 0px 0px 0px;
+  float: left;
+  width: 15%;
+  height: 1000px; /* only for demonstration, should be removed */
+  background: #a1a3b4;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 85%;
+  background-color: #f1f1f1;
+  height: 1000px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#copyright{
+text-align:right;
+position: static;
+
+}
+#css1{
+background-color: none;
+font-size: 30px;
+font-family: Georgia;
+font-style: sans;
+font-weight: bold;
+color: white;
+text-shadow: 2px 2px 8px black;
+}
+/* Style the footer */
+footer {
+  border-radius: 0px 0px 20px 20px;
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+  <header>
+    <a href="index.html" title="YOGYA CANDI DESTINATION"><img src="picture\logo yogya.png" alt="CANDI" style="width: 200px; height: 150px;" align ="left"></a>
+  <h3>YOGYA CANDI DESTINATION</h3>
+</header>
+
+<section>
+  <nav>
+    <ul>
+    <p>CANDI PRAMBANAN</p>
+      <li><a href="index.html">HOME</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <center><img src="picture\CandiPrambanan pemandangan.jpg" style="width: 350px; height: 200px; border-radius: 10px;"></center>
+    <center><h1>CANDI PRAMBANAN(プランバナン寺院)</h1></center>
+    <BR>
+      <button type="button" onclick='document.getElementById("demo").innerHTML = "Prambanan Temple (Javanese: ꦕꦤ꧀ꦝꦶꦥꦿꦩ꧀ꦧꦤꦤ꧀, translit. Candi Prambanan) is the largest Hindu temple in Indonesia built in the 9th century AD. The temple, which is also referred to as Rara Jonggrang, is dedicated to Trimurti, the three main Hindu gods, namely the god Brahma as the creator god, the god Vishnu as the preserver god, and the god Shiva as the god of destruction. Based on the Siwagrha inscription, the original name of this temple complex is Siwagrha (Sanskrit meaning House of Shiva), and indeed in the garbagriha (main room) of this temple resides a three-meter-high statue of Shiva Mahadeva, due to the Shiva sect that prioritizes the worship of the god Shiva in this temple."'>translate to english</button>
+
+
+     <button type="button" onclick='document.getElementById("demo").innerHTML = "Candi Prambanan (Jawa: ꦕꦤ꧀ꦝꦶ​ꦥꦿꦩ꧀ꦧꦤꦤ꧀, translit. Candi Prambanan) adalah bangunan candi bercorak agama hindu terbesar di Indonesia yang dibangun pada abad ke-9 Masehi. Candi yang juga disebut sebagai Rara Jonggrang ini dipersembahkan untuk Trimurti, tiga dewa utama Hindu yaitu dewa Brahma sebagai dewa pencipta, dewa Wisnu sebagai dewa pemelihara, dan dewa Siwa sebagai dewa pemusnah. Berdasarkan prasasti Siwagrha nama asli kompleks candi ini adalah Siwagrha (bahasa Sanskerta yang bermakna Rumah Siwa), dan memang di garbagriha (ruang utama) candi ini bersemayam arca Siwa Mahadewa setinggi tiga meter, dikarenakan aliran Syaiwa yang mengutamakan pemujaan dewa Siwa di candi ini."'>translate to bahasa</button>
+
+<p id="demo">Candi Prambanan (Jawa: ꦕꦤ꧀ꦝꦶ​ꦥꦿꦩ꧀ꦧꦤꦤ꧀, translit. Candi Prambanan) adalah bangunan candi bercorak agama hindu terbesar di Indonesia yang dibangun pada abad ke-9 Masehi. Candi yang juga disebut sebagai Rara Jonggrang ini dipersembahkan untuk Trimurti, tiga dewa utama Hindu yaitu dewa Brahma sebagai dewa pencipta, dewa Wisnu sebagai dewa pemelihara, dan dewa Siwa sebagai dewa pemusnah. Berdasarkan prasasti Siwagrha nama asli kompleks candi ini adalah Siwagrha (bahasa Sanskerta yang bermakna 'Rumah Siwa'), dan memang di garbagriha (ruang utama) candi ini bersemayam arca Siwa Mahadewa setinggi tiga meter, dikarenakan aliran Syaiwa yang mengutamakan pemujaan dewa Siwa di candi ini.</p>
+      <p>Untuk lebih lengkapnya, silahkan buka:
+        <a href="https://id.wikipedia.org/wiki/Candi_Prambanan">About us</a>
+  </p>
+    
+    
+   
+  <p id="copyright">© 2023 M RIZKY RAMADHAN</p> 
+  </article>
+</section>
+
+<footer>
+  <p><marquee scrollamount="20" id="css1" direction="left ">https://github.com/rizkyramadhan1601</marquee></p>
+</footer>
+
+</body>
+</html>
+

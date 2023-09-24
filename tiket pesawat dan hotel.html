@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TIKET PESAWAT DAN HOTEL</title>
+<link rel="icon" href="picture\logo yogya.png">
+</head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  border-radius: 20px 20px 0px 0px;
+  background-color: #362e54;
+  padding: 20px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  border-radius: 0px 0px 0px 0px;
+  float: left;
+  width: 15%;
+  height: 1500px; /* only for demonstration, should be removed */
+  background: #a1a3b4;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 85%;
+  background-color: #f1f1f1;
+  height: 1500px; /* only for demonstration, should be removed */
+}
+.tiket-pesawat{
+  float: left;
+}
+
+#logo{
+justify-content: center;
+align-items: center;
+display: flex;
+}
+#logo img{
+float: left;
+border-radius: 100%;
+height: 100px;
+width: 100px;
+border: 1px solid transparent;
+}
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#copyright{
+text-align:right;
+position: static;
+
+}
+#css1{
+background-color: none;
+font-size: 30px;
+font-family: Georgia;
+font-style: sans;
+font-weight: bold;
+color: white;
+text-shadow: 2px 2px 8px black;
+}
+/* Style the footer */
+footer {
+  border-radius: 0px 0px 20px 20px;
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+  <header>
+    <a href="index.html" title="YOGYA CANDI DESTINATION"><img src="picture\logo yogya.png" alt="CANDI" style="width: 200px; height: 150px;" align ="left"></a>
+  <h3>YOGYA CANDI DESTINATION</h3>
+</header>
+<section>
+  <nav>
+    <ul>
+    <p>TIKET PESAWAT DAN HOTEL</p>
+      <li><a href="index.html">HOME</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <center><h3>TIKET PESAWAT DAN HOTEL</h3></center>
+    <br/>
+    <p>Kami disini juga menyediakan platform tempat  dimana anda bisa membeli tiket pesawat dan tiket hotel ketika anda ingin berkunjung ke Yogyakarta</p>
+    <p>KAMI TELAH MENYEDIAKAN DUA PLATFORM PENJUALAN TIKET PESAWAT DAN TIKET HOTEL SECARA ONLINE, ANDA DAPAT MEMILIH TIKET PESAWAT DAN HOTEL DIBAWAH SESUAI DENGAN KEMAUAN ANDA.</p>
+      <br/>
+      <br/>
+<center><h4>TIKET PESAWAT</h4></center>
+<br/>
+<div class="tiket-pesawat">
+  <center><h5>TIKET.COM</h5>   
+      <div id="logo">
+        <a href="https://www.tiket.com/pesawat"title="TIKET.COM"><img src="picture\TIKET.COM.jpg" alt="TIKET.COM" ></a>
+      </div>
+      <p>Cara memesan tiket pesawat di "TIKET.COM".</p></center>
+        <ul>
+          <li>Pertama, anda dapat mengklik platform diatas untuk memasuki halaman pembelian.</li>
+          <li>Kedua, anda dapat memilih tempat keberangkatan anda.</li>
+          <li>Ketiga, anda disarankan untuk memilih bandara tempat tujuan anda yaitu YOGYAKARTA INTERNATIONAL AIRPORT(YIA) karena bandara adisucipto(JOG) sudah jarang bahkan tidak beroperasi untuk penerbangan komersial.</li>
+          <li>keempat, anda dapat memilih jadwal keberangkatan anda dan jika anda ingin mengatur jadwal pulang anda, anda dapat mengaktifkan fitur jadwal pulang pergi untuk mengatur jadwal pulang pergi anda.</li>
+          <li>Selanjutnya anda dapat mengatur jumlah tiket penumpang yang ingin anda beli sekaligus anda bisa mengatur kelas yang ingin anda beli.</li>
+          <li>lalu anda dapat mengklik "AYO CARI" dan langsung diarahkan ke halaman pemilihan maskapai.</li>
+          <li>langkah terakhir anda dapat memilih maskapai dan anda dapat membayar tiket yang anda beli.</li>
+        </ul>
+        <br/>
+        <br/>
+        <center><h5>TRAVOLOKA</h5>   
+          <div id="logo">
+            <a href="https://www.traveloka.com/id-id/flight/route/Jakarta-Yogyakarta.CGK.YIA"title="TRAVOLOKA"><img src="picture\TRAVOLOKA.png" alt="TRAVOLOKA" ></a>
+          </div>
+          <p>Cara memesan tiket pesawat di "TRAVOLOKA".</p></center>
+          <ul>
+          <li>Pertama, anda bisa mengklik platform di atas ini untuk diarahan ke halaman pembelian</li>
+          <li>kedua, anda dapat memilih tempat keberangkatan anda.</li>
+          <li>ketiga, anda tidak perlu mengganti tempat tujuan anda karena sudah kami pilihkan rekomendasi bandara tujuan anda yang masih beroperasi untuk komersial.</li>
+          <li>Selanjutnya, anda dapat memilih jumlah tiket penumpang yang ingin anda beli sesuai kebutuhan.</li>
+          <li>setelah itu, anda dapat memilih jadwal keberangkatan anda, dan jika anda ingin memilih jadwal kepulangan anda anda dapet mengeklik "TANGGAL PULANG".</li>
+          <li>Lalu anda dapat memilih kelas penerbangan anda.</li>
+          <li>Langkah terakhir anda dapat mengeklik "CARI TIKET" lalu anda akan diarahkanke tampilan pemilihan maskapai.</li>
+          <li>jika anda sudah menemukan maskapai yang cocok anda dapat mengklik "pilih" dan ada dapat membayar tiket yang telah anda beli.</li>
+        </ul>
+<br/>
+<br/>
+<center><a href="tiket hotel.html"><h3>TIKET HOTEL</h3></a></center>
+</div>
+
+<p id="copyright">© 2023 M RIZKY RAMADHAN</p>
+</article>
+</section>
+
+<footer>
+  <p><marquee scrollamount="20" id="css1" direction="left ">https://github.com/rizkyramadhan1601</marquee></p>
+</footer>
+
+</body>
+</html>
+

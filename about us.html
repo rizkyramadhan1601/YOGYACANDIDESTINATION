@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ABOUT US</title>
+<link rel="icon" href="picture\logo yogya.png">
+</head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  border-radius: 20px 20px 0px 0px;
+  background-color: #362e54;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  width: auto;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  border-radius: 0px 0px 0px 0px;
+  float: left;
+  width: 15%;
+  height: 1500px; /* only for demonstration, should be removed */
+  background: #a1a3b4;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 85%;
+  background-color: #f1f1f1;
+  height:max-content; /* only for demonstration, should be removed */
+}
+.container{
+  display: grid;
+  background-color: #a1a3b4;
+  border-radius: 5px;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  padding: 20px;
+  height:auto;
+}
+
+.kotak1{
+  background-color: lavender;
+  border-radius: 20px;  
+  text-align: center;
+  padding: 10px;
+}
+
+.kotak2{
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  background-color: lavender;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  gap: 10px;
+}
+
+.team{
+border-radius: 10px;
+background-color:silver; 
+height: auto;
+max-height: max-content;
+padding-bottom: 10px;
+}
+
+#css1{
+background-color: none;
+font-size: 30px;
+font-family: Georgia;
+font-style: sans;
+font-weight: bold;
+color: white;
+text-shadow: 2px 2px 8px black;
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#copyright{
+text-align:right;
+position: static;
+
+}
+
+/* Style the footer */
+footer {
+  border-radius: 0px 0px 20px 20px;
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  width: auto;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+  <header>
+    <a href="index.html" title="YOGYA CANDI DESTINATION"><img src="picture\logo yogya.png" alt="CANDI" style="width: 200px; height: 150px;" align ="left"></a>
+  <h3>YOGYA CANDI DESTINATION</h3>
+</header>
+
+<section>
+  <nav>
+    <ul>
+    <p>ABOUT US</p>
+      <li><a href="index.html">HOME</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <div class="container">
+      <div class="kotak1">
+        <h4>OUR HISTORY</h4>
+        <p>perkenalkan kami siswa dari kelas 10 REKAYASA PERANGKAT LUNAK SMKN 7 KOTA SERANG kami juga berasal dari kelompok yang membuat website bertemakan pariwisata yang kami buat dengan judul "YOGYA CANDI DESTINATON".</p>
+        <p> kami terdiri dari lima anggota yaitu Muhammad Rizky Ramadhan, Moh Yulian Kusuma, Calyca Ayudia A.P, Dian Pandan Sari, serta Abdul Rouf.</p><p> tujuan team kami terbentuk adalah bersatu untuk membuat/merancang website ini sedemikian rupa agar dapat berfungsi sebagaimana mestinya yang di dalam nya berisi tentang  pengertian/sejarah candi candi,lalu tempat dimana candi itu berada serta didalam website ini juga terdapat tempat dimana anda dapet membeli tiket secara online ataupun offline.</p>
+      </div>
+      <div class="kotak2">
+        <h4>OUR TEAM</h4>
+        <div class="team">
+          <p><img src="team\RIZKY.jpg" style="height: 160px; width: 110px; border-radius: 40px; float: left; padding-left: 10px; padding-top: 10px;" alt="MUHAMMAD RIZKY RAMADHAN"><h3>MUHAMMAD RIZKY RAMADHAN</h3>Seorang siswa yang saat ini sedang menempuh pendidikan di SMKN 7 KOTA SERANG sekaligus sebagai siswa dikelas 10 REKAYASA PERANGKAT LUNAK.<br/>Saya bertugas sebagai perancang sekaligus pembuat website ini yang di bantu oleh anggota kelompok saya.</p>
+        </div>
+        <div class="team">
+          <p><img src="team\YULIAN.jpg" style="height: 160px; width: 110px; border-radius: 40px; float: left; padding-left: 10px; padding-top: 10px;" alt="MOH YULIAN KUSUMA"><h3>MOH YULIAN KUSUMA</h3>Seorang siswa yang saat ini sedang menempuh pendidikan di SMKN 7 KOTA SERANG sekaligus sebagai siswa dikelas 10 REKAYASA PERANGKAT LUNAK.<br/>Saya bertugas sebagai yang membantu perancang/pembuat website ini.</p>
+        </div>
+        <div class="team">
+          <p><img src="team\clc.jpg" style="height: 160px; width: 110px; border-radius: 40px; float: left; padding-left: 10px; padding-top: 10px;" alt="CALYCA AYUDIA ANANDA PUTRI"><h3>CALYCA AYUDIA ANANDA PUTRI</h3>Seorang siswi yang saat ini sedang menempuh pendidikan di SMKN 7 KOTA SERANG sekaligus sebagai siswi dikelas 10 REKAYASA PERANGKAT LUNAK.<br/>Saya bertugas sebagai yang membantu perancang/pembuat website ini.</p>
+        </div>
+        <div class="team">
+          <p><img src="team\dian.jpg" style="height: 160px; width: 110px; border-radius: 40px; float: left; padding-left: 10px; padding-top: 10px;" alt="DIAN PANDAN SARI"><h3>DIAN PANDAN SARI</h3>Seorang siswi yang saat ini sedang menempuh pendidikan di SMKN 7 KOTA SERANG sekaligus sebagai siswi dikelas 10 REKAYASA PERANGKAT LUNAK.<br/>Saya bertugas sebagai yang membantu perancang/pembuat website ini.</p>
+        </div>
+        <div class="team">
+          <p><img src="team\ROUF.jpg" style="height: 160px; width: 110px; border-radius: 40px; float: left; padding-left: 10px; padding-top: 10px;" alt="ABDUL ROUF"><h3>ABDUL ROUF</h3>Seorang siswa yang saat ini sedang menempuh pendidikan di SMKN 7 KOTA SERANG sekaligus sebagai siswa dikelas 10 REKAYASA PERANGKAT LUNAK.<br/>Saya bertugas sebagai yang membantu perancang/pembuat website ini.</p>
+        </div>
+      </div>
+      <p id="copyright">© 2023 M RIZKY RAMADHAN</p>
+  </article>
+</section>
+
+<footer>
+  <p><marquee scrollamount="20" id="css1" direction="left ">https://github.com/rizkyramadhan1601</marquee></p>
+</footer>
+
+</body>
+</html>
+

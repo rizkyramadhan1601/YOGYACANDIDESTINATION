@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DATA PENGUNJUNG</title>
+<link rel="icon" href="picture\logo yogya.png">
+</head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  border-radius: 20px 20px 0px 0px;
+  background-color: #362e54;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  border-radius: 0px 0px 0px 0px;
+  float: left;
+  width: 15%;
+  height: 500px; /* only for demonstration, should be removed */
+  background: #a1a3b4;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+float: left;
+padding: 20px;
+width: 85%;
+background-color: #f1f1f1;
+height: 500px; /* only for demonstration, should be removed */
+}
+
+#table{
+  overflow: auto;
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#copyright{
+text-align:right;
+position: static;
+
+}
+#css1{
+background-color: none;
+font-size: 30px;
+font-family: Georgia;
+font-style: sans;
+font-weight: bold;
+color: white;
+text-shadow: 2px 2px 8px black;
+}
+/* Style the footer */
+footer {
+  border-radius: 0px 0px 20px 20px;
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+  <header>
+    <a href="index.html" title="YOGYA CANDI DESTINATION"><img src="picture\logo yogya.png" alt="CANDI" style="width: 200px; height: 150px;" align ="left"></a>
+  <h3>YOGYA CANDI DESTINATION</h3>
+</header>
+
+<section>
+  <nav>
+    <ul>
+    <p>DATA PENGUNJUNG</p>
+
+      <li><a href="index.html">HOME</a></li>
+
+    </ul>
+  </nav>
+  
+  <article>
+    <h3>DATA PENGUNJUNG</h3>
+<div id="table">
+  <table border="1">
+    <tr>
+      <th rowspan="2">PENGUNJUNG</th>
+      <th colspan="5">YOGYA CANDI DESTINATION </th>
+    </tr>
+    <tr>
+      <th>Minggu Ke1</th>
+      <th>Minggu Ke2</th>
+      <th>Minggu ke3</th>
+      <th>Minggu Ke4</th>
+      <th>Bulan Ini</th>
+    </tr>
+    <tr>
+      <td>Pengunjung</td>
+      <td>10</td>
+      <td>30</td>
+      <td>20</td>
+      <td>40</td>
+      <td>100 orang</td>
+    </tr>
+    <tr>
+      <td>Menanyakan tentang Web</td>
+      <td>6 dari 10</td>
+      <td>5 dari 30</td>
+      <td>15 dari 20</td>
+      <td>20 dari 40</td>
+      <td>40 orang</td>
+     </tr>
+    <tr>
+      <td>Pembeli Tiket</td>
+      <td>0</td>
+      <td>2 dari 30</td>
+      <td>3 dari 20</td>
+      <td>5 dari 40</td>
+      <td>10 orang</td>
+    </tr>
+  </table>
+</div>
+  <p id="copyright">© 2023 M RIZKY RAMADHAN</p>
+  </article>
+</section>
+
+<footer>
+  <p><marquee scrollamount="20" id="css1" direction="left ">https://github.com/rizkyramadhan1601</marquee></p>
+</footer>
+
+</body>
+</html>
+

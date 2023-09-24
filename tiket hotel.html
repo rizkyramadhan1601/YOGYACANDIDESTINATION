@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TIKET HOTEL</title>
+<link rel="icon" href="picture\logo yogya.png">
+</head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  border-radius: 20px 20px 0px 0px;
+  background-color: #362e54;
+  padding: 20px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  border-radius: 0px 0px 0px 0px;
+  float: left;
+  width: 15%;
+  height: 1500px; /* only for demonstration, should be removed */
+  background: #a1a3b4;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 85%;
+  background-color: #f1f1f1;
+  height: 1500px; /* only for demonstration, should be removed */
+}
+.text{
+    text-align: center;
+}
+
+.tiket-hotel{
+text-align: center;
+}
+
+#logo{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#logo img{
+float: left;
+border-radius: 100%;
+height: 120px;
+width: 120px;
+border: 1px solid transparent;
+}
+
+
+#lainnya{
+display: flex;
+justify-content:left;
+align-items:start;   
+}
+#lainnya img{
+float: left;
+border-radius: 100%;
+height: 120px;
+width: 120px;
+border: 1px solid transparent;   
+}
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#copyright{
+text-align:right;
+position: static;
+
+}
+#css1{
+background-color: none;
+font-size: 30px;
+font-family: Georgia;
+font-style: sans;
+font-weight: bold;
+color: white;
+text-shadow: 2px 2px 8px black;
+}
+/* Style the footer */
+footer {
+  border-radius: 0px 0px 20px 20px;
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+  <header>
+    <a href="index.html" title="YOGYA CANDI DESTINATION"><img src="picture\logo yogya.png" alt="CANDI" style="width: 200px; height: 150px;" align ="left"></a>
+  <h3>YOGYA CANDI DESTINATION</h3>
+</header>
+<section>
+  <nav>
+    <ul>
+    <p>TIKET HOTEL</p>
+      <li><a href="tiket pesawat dan hotel.html">KEMBALI</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+<center><h3>TIKET HOTEL</h3></center>
+<div class="text">
+<p>Selamat datang dihalaman tempat pembelian tiet hotel untuk menginap saat berlibur di yogyakarta.</p>
+<p>Disini kami menyediakan dua platform terpercaya yang anda dapat pilih pada saat ingin membeli tiket hotel secara online.<br/>
+anda dapat memilih diantara dua platform dibawah dimana anda dapat memesan hotel secara online di platform tersebut.</p>
+</div>
+<br/>
+<br/>
+
+<div class="tiket-hotel">
+    <h4>TIKET.COM</h4>
+</div>
+    <div id="logo">
+        <a href="https://www.tiket.com/hotel" title="TIKET.COM"><img src="picture\TIKET.COM.jpg" alt="TIKET.COM"></a>
+    </div>
+<h4>LANGKAH-LANGKAH PEMBELIAN</h4>
+<ul>
+    <li>Langkah pertama anda dapat mengklik platform diatas ini dan langsung diarahkan ke halaman pembelian tiket hotel online.</li>
+    <li>Langkah kedua anda diminta memasukan dimana anda ingin menginap.</li>
+    <ul>
+        <li>Jika anda ingin menginap dikawasan prambanan anda bisa masukan "PRAMBANAN" dikolom"Mau Nginep Dimana?".</li>
+        <li>Jika anda ingin menginap di hotel lain yang ada di jogja anda bisa isi "YOGYAKARTA" dikolom"Mau Nginep Dimana?".</li>
+    </ul>
+    <li>langkah ketiga atur tanggal check in dan check out anda.</li>
+    <li>langkah Selanjutnya atur kamar dan tamu sesuai yang anda ingin pesan.</li>
+    <li>Lalu langkah terakhir anda dapat mengeklik "AYO CARI" lalu anda akan diarahkan ke halaman pilihan hotel lalu anda pilih hotel sesuai keinginan anda.</li>
+</ul>
+<br/>
+<br/>
+<div class="tiket-hotel">
+<h4>TRAVOLOKA</h4>
+</div>
+    <div id="logo">
+        <a href="https://www.traveloka.com/id-id/" title="TRAVOLOKA"><img src="picture\TRAVOLOKA.png" alt="TRAVOLOKA"></a>
+    </div>
+</div>
+<h4>LANGKAH-LANGKAH PEMBELIAN</h4>
+<ul>
+    <li>Langkah pertama anda dapat mengklik platform diatas.</li>
+    <li>Langkah kedua anda dapat memilih "hotel" lalu anda dapat memasukkan Kota/tujuan/atau nama hotel anda.</li>
+    <ul>
+        <li>Jika anda ingin menginap dikawasan prambanan anda bisa masukan "PRAMBANAN" dikolom"Kota/tujuan/atau nama hotel".</li>
+        <li>Jika anda ingin menginap di hotel lain yang ada di jogja anda bisa isi "YOGYAKARTA"Kota/tujuan/atau nama hotel".</li>
+    </ul>
+    <li>langkah ketiga atur tanggal check in dan atur berapa malam anda akan bermalam disana.</li>
+    <li>langkah Selanjutnya atur tamu dan kamar sesuai yang anda ingin pesan.</li>
+    <li>Lalu langkah terakhir anda dapat mengeklik "CARI HOTEL" lalu anda akan diarahkan ke halaman pilihan hotel lalu anda pilih hotel sesuai keinginan anda.</li>
+</ul>
+<br/>
+<br/>
+<br/>
+<h5>ANDA DAPAT MEMANFAAT KAN FITUR LAIN DARI KEDUA PLATFORM DI BAWAH INI</h5>
+    <a href="https://www.traveloka.com/id-id/" title="TRAVOLOKA"><img src="picture\TRAVOLOKA.png" style="height: 150px; width: 150px; border-radius: 100%;" alt="TRAVOLOKA"></a>
+    <a href="https://www.tiket.com/" title="TIKET.COM"><img src="picture\TIKET.COM.jpg" style="height: 150px; width: 150px; border-radius: 100%;" alt="TIKET.COM"></a>
+<p id="copyright">© 2023 M RIZKY RAMADHAN</p>
+</article>
+</section>
+
+<footer>
+  <p><marquee scrollamount="20" id="css1" direction="left ">https://github.com/rizkyramadhan1601</marquee></p>
+</footer>
+
+</body>
+</html>
+

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CONTACT US</title>
+<link rel="icon" href="picture\logo yogya.png">
+</head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  border-radius: 20px 20px 0px 0px;
+  background-color: #362e54;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  width: auto;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  border-radius: 0px 0px 0px 0px;
+  float: left;
+  width: 15%;
+  height: 1700px; /* only for demonstration, should be removed */
+  background: #a1a3b4;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 85%;
+  background-color: #f1f1f1;
+  height: 1700px; /* only for demonstration, should be removed */
+}
+
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.grid-container{
+  display: grid;
+  overflow: auto;
+  height: auto;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #362e54;
+  grid-template-columns: 1fr ;
+  grid-template-rows: repeat(auto-fit, minmax(200px, 1fr, 1fr));
+  gap: 20px;
+  padding: 10px;
+}
+
+.grid-item{
+  background-color: #a1a3b4;
+  height: 300px;
+  width: 100%;
+  padding-top: 20px;
+  padding-left: 20px;
+  border-radius: 8px;
+  text-align:justify;
+}
+#copyright{
+text-align:right;
+position: static;
+
+}
+#css1{
+background-color: none;
+font-size: 30px;
+font-family: Georgia;
+font-style: sans;
+font-weight: bold;
+color: white;
+text-shadow: 2px 2px 8px black;
+}
+
+/* Style the footer */
+footer {
+  border-radius: 0px 0px 20px 20px;
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  width: auto;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+  <header>
+    <a href="index.html" title="YOGYA CANDI DESTINATION"><img src="picture\logo yogya.png" alt="CANDI" style="width: 200px; height: 150px;" align ="left"></a>
+  <h3>YOGYA CANDI DESTINATION</h3>
+</header>
+
+<section>
+  <nav>
+    <ul>
+    <p>CONTACT US</p>
+      <li><a href="index.html">HOME</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <div class="grid-container">
+      <div class="grid-item">
+        <img src="team\RIZKY.jpg" style="height: 100px; width: 100px; border-radius: 100%; float:unset;" alt="MUHAMMAD RIZKY RAMADHAN">
+        <h3>M RIZKY RAMADHAN</h3><p style="font-size: 20px;"><p>+62 812-5603-...</p><p>rizkyramadhanmuhammad16@gmail.com</p>instagram: <a href="https://www.instagram.com/kyy_07r/">@kyy_07r</a></p>
+      </div>
+      <div class="grid-item">
+        <img src="team\YULIAN.jpg" style="height: 100px; width: 100px; border-radius: 100%; float:unset;" alt="MOH YULIAN KUSUMA">
+        <h3>MOH YULIAN KUSUMA</h3><p style="font-size: 20px;">+62 899-9597-...<p>turiah.08@gmail.com</p><p>instagram:<a href="https://www.instagram.com/yan_9h/">yan_9h</a></p>
+      </div>
+      <div class="grid-item">
+        <img src="team\clc.jpg" style="height: 100px; width: 100px; border-radius: 100%; float:unset;" alt="CALYCA AYUDIA ANANDA PUTRI">
+        <h3>CALYCA AYUDIA ANANDA.P</h3><p style="font-size: 20px;">+62 813-8376-...<p>calycaputri11@gmail.com</p><p>instagram: <a href="https://www.instagram.com/calycaaorenji/">@calycaaorenji</a></p>
+      </div>
+      <div class="grid-item">
+        <img src="team\dian.jpg" style="height: 100px; width: 100px; border-radius: 100%; float:unset;" alt="DIAN PANDAN SARI">
+        <h3>DIAN PANDAN SARI</h3><p style="font-size: 20px;">+62 895-2504-...<p>dianpandansari474@gmail.com</p><p>instagram: <a href="https://www.instagram.com/xr3di_annps/">@xr3di_annps</a></p>
+      </div>
+      <div class="grid-item">
+        <img src="team\ROUF.jpg" style="height: 100px; width: 100px; border-radius: 100%; float:unset;" alt="ABDUL ROUF">
+        <h3>ABDUL ROUF</h3><p style="font-size: 20px;">+62 838-0545-...<p>raup745@gmail.com</p><p>instagram: <a href="https://www.instagram.com/astagaa_upp/">@astagaa_upp</a></p>
+      </div>
+    </div>
+    <p id="copyright">© 2023 M RIZKY RAMADHAN</p>
+  </article>
+</section>
+
+<footer>
+  <p><marquee scrollamount="20" id="css1" direction="left ">https://github.com/rizkyramadhan1601</marquee></p>
+</footer>
+
+</body>
+</html>
+

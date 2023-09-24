@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TIKET CANDI KALASAN</title>
+<link rel="icon" href="picture\logo yogya.png">
+</head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  border-radius: 20px 20px 0px 0px;
+  background-color: #362e54;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  border-radius: 0px 0px 0px 0px;
+  float: left;
+  width: 15%;
+  height: 1000px; /* only for demonstration, should be removed */
+  background: #a1a3b4;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 85%;
+  background-color: #f1f1f1;
+  height: 1000px; /* only for demonstration, should be removed */
+}
+
+#profil {
+height: 30vh;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+#profil img {
+border-radius: 100%;
+border: 1px solid transparent ;
+ }
+
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#copyright{
+text-align:right;
+position: static;
+
+}
+#css1{
+background-color: none;
+font-size: 30px;
+font-family: Georgia;
+font-style: sans;
+font-weight: bold;
+color: white;
+text-shadow: 2px 2px 8px black;
+}
+/* Style the footer */
+footer {
+  border-radius: 0px 0px 20px 20px;
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+  <header>
+    <a href="index.html" title="YOGYA CANDI DESTINATION"><img src="picture\logo yogya.png" alt="CANDI" style="width: 200px; height: 150px;" align ="left"></a>
+  <h3>YOGYA CANDI DESTINATION</h3>
+</header>
+
+<section>
+  <nav>
+    <ul>
+    <p>CANDI KALASAN</p>
+      <li><a href="index.html">HOME</a></li>
+
+    </ul>
+  </nav>
+  
+  <article>
+    <center><h1>CANDI KALASAN</h1></center>
+    <center><P>UNTUK CANDI KALASAN ANDA BISA MEMESAN TIKET SECARA OFFLINE DI TEMPAT NYA LANGSUNG.</P>
+      <P>ANDA BISA MENGEKLIK SITUS DI BAWAH INI UNTUK MENGETAHUI TARIF MASUK YANG DI KELUARKAN</P></center>
+     <center><img src="picture\pintu masuk candi kalasan.jpg" style="height: 200px; width: 300px; border-radius: 10px;"></center>
+      <div id="profil">
+      <a href="https://mytrip123.com/candi-kalasan/" title="CANDI KALASAN"><img src="picture\LOGO MYTRIP.png" alt="MYTRIP" width="100" height="100" /></a>
+    </div>
+  <center><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.212426792235!2d110.46977021138639!3d-7.767283992219672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5a5f3dd682e7%3A0x744e3521829a27c1!2sCandi%20Kalasan!5e0!3m2!1sid!2sid!4v1693037359615!5m2!1sid!2sid" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></center>
+  <p id="copyright">© 2023 M RIZKY RAMADHAN</p>
+  </article>
+</section>
+
+<footer>
+  <p><marquee scrollamount="20" id="css1" direction="left ">https://github.com/rizkyramadhan1601</marquee></p>
+</footer>
+
+</body>
+</html>
+

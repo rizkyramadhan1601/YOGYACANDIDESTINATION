@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>YOGYA CANDI DESTINATION</title>
+<link rel="icon" href="picture\logo yogya.png">
+</head>
+<style>
+ 
+* {
+  box-sizing: border-box;
+}
+
+p, h1, b{
+  text-align: center;
+}
+
+video{
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+  width:50%
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  border-radius: 20px 20px 0px 0px;
+  background-color: #362e54;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+
+  .clock {
+    
+    border-radius: 20px;
+    position: absolute;
+    right: 40px;
+    transform: translateX(10%) translateY(-50%);
+    color: #000000;
+    font-size: 20px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+    padding: 15px;
+    background-color: lavender;
+  }
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  border-radius: 0px 0px 0px 0px;
+  float: left;
+  width: 15%;
+  height: 1500px; /* only for demonstration, should be removed */
+  background: #a1a3b4;
+  padding: 20px;
+}
+.statistika{
+  padding: 10pz;
+  width: auto;
+  background-color: lavender;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+article {
+align-content: center;
+text-align: center;
+background-color: rgb(255, 255, 255);
+float: left;
+padding: 20px;
+width: 85%;
+height: 1500px; /* only for demonstration, should be removed */
+}
+.img{
+justify-content: center;
+}
+#css1{
+background-color: none;
+font-size: 30px;
+font-family: Georgia;
+font-style: sans;
+font-weight: bold;
+color: white;
+text-shadow: 2px 2px 8px black;
+}
+
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#copyright{
+text-align: right;
+position: static;
+}
+/* Style the footer */
+footer {
+  border-radius: 0px 0px 20px 20px;
+  background-color: rgb(5, 5, 5);
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+  <header>
+    <a href="index.html" title="YOGYA CANDI DESTINATION"><img src="picture\logo yogya.png" alt="CANDI" style="width: 200px; height: 150px;" align ="left"></a>
+  <h3>YOGYA CANDI DESTINATION</h3>
+	<script type="text/javascript" src="./script.js" async></script>
+</head>
+<body>
+	<div id="DisplayClock" class="clock" onload="showTime()"></div>
+</header>
+
+<section>
+  <nav>
+    <ul>
+    <p>DAFTAR TICKET</p>
+      <li><a href ="ticket prambanan.html">TIKET CANDI PRAMBANAN</a></li>
+      <li><a href="ticket kalasan.html">TIKET CANDI KALASAN</a></li>
+      <li><a href="ticket sambisari.html">TIKET CANDI SAMBISARI</a></li>
+      <li><a href="tiket pesawat dan hotel.html">TIKET PESAWAT&HOTEL</a></li>
+    </ul>
+<div class="statistika">
+      <div>
+        <canvas id="myChart"></canvas>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        const ctx = document.getElementById('myChart');
+      
+        new Chart(ctx, {
+          type: 'bar',
+          data: {
+            labels: ['minggu ke1', 'Minggu ke2', 'minggu ke3', 'minggu ke4', 'bulan ini' ],
+            datasets: [{
+              label: 'Pengunjung',
+              data: [10, 30, 20, 40, 100],
+              borderWidth: 1
+            }]
+          },
+          options: {
+            scales: {
+              y: {
+                beginAtZero: true
+              }
+            }
+          }
+        });
+      </script>
+      <br/>
+      
+    </div>
+  <div class="position">
+    <ul>
+      <li><a href="about us.html">ABOUT US</a></li>
+      <li><a href="contact us.html">CONTACT US</a></li>
+    </ul>
+    
+  </div>
+  </nav>
+  
+  <article>
+    <h1>SELAMAT DATANG</h1>
+    <p>Selamat datang di website kami yang menyediakan rekomendasi destinasi wisata candi yang ada di yogyakarta.<br/>
+       Di sini kami menyediakan rekomendasi tempat tempat berlibur khususnya tempat wisata candi yang ada di yogyakarta.<br/>
+       anda bisa membaca informasi lebih lanjut di bawah ini dengan mengeklik gambar:</p>
+       <div class="img">
+       <a href="halaman candi prambanan.html" title="CANDI PRAMBANAN"><img src="picture\candi-prambanan.jpg" style="width: 250px; height: 150px; border-radius: 10px;" alt="Candi PRAMBANAN"> </a>
+       <a href="halaman candi kalasan.html" title="CANDI KALASAN"><img src="picture\candi kalasan.jpg" alt="CANDI KALASAN" style="width: 250px; height: 150px; border-radius: 10px;" ></a>
+       <a href="halaman candi sambisari.html" title="CANDI SAMBISARI"><img src="picture\candi sambisari.jpg" alt="CANDI SAMBISARI" style="width: 250px; height: 150px; border-radius: 10px;" ></a>
+      </div>
+     
+      Di website ini kami menyediakan tiga rekomendasi candi yang ada di yogyakarta dengan biaya masuk yang terjangkau dengan biaya mulai dari Rp.15 000 anda bisa mengunjungi salah satu dari tiga candi di atas dengan pemandangan yang luar biasa indah nya pada setiap candi candi yang ada di atas.</p>
+      <p>Ketika anda mengunjungi tempat wisata candi anda sangat dilarang merusak salah satu cagar budaya yang ada di indonesia ini jika
+        anda tetap melakukan nya anda dapat di jerat pidana.Setiap orang dilarang merusak dan mencuri Cagar Budaya. Larangan tersebut diatur di Pasal 66 Undang-Undang Nomor 11 Tahun 2010 tentang Cagar Budaya.
+      </p>
+<br/>
+<br/>
+<h1>ADVERTISEMENT</h1>
+
+<center><img src="picture\sholat 5 waktu.jpg" style="height: 400px; width: 360px;"</center>
+
+
+<br/>
+    <p>IKUTI EVENT OLAHRAGA TAHUNAN CANDI PRAMBANAN</p>
+    <p>Mandiri Jogja Marathon adalah ajang lomba lari tahunan dari Bank Mandiri, pertama kali 2017 di Yogyakarta. Salah satu tujuan utama olahraga kompetisi lari (sport tourism), selain olahraga Mandiri Jogja Marathon juga sebagai destinasi untuk berlibur bersama keluarga.
+      Kompetisi marathon dengan sentuhan keindahan alam, keramahan masyarakat dan juga kuliner yogyakarta menjadi daya tarik sendiri. Mandiri Jogja Marathon 2023 akan diselenggarakan  di Prambanan Yogyakarta, dengan memperlombakan kategori Marathon, Half Marathon, 10K dan 5K Fun Run.</p>
+        <video controls style="height: 200px; width: 350px;">
+          <source src="picture\MANDIRI MARATHON.mp4" type="video/webm"/>
+        </video>
+        <br/>
+        <br/>
+        <center><a href="pengunjung.html">PENGUNJUNG</a></center>
+        <p id="copyright">© 2023 M RIZKY RAMADHAN</p>
+</article>
+
+</section>
+
+
+<footer>
+  <p><marquee scrollamount="20" id="css1" direction="left ">https://github.com/rizkyramadhan1601</marquee></p>
+</footer>
+
+</body>
+</html>
+
